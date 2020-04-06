@@ -1,5 +1,4 @@
 import requests
-from scripts.hello import *
 
 def hello():
     c = requests.get('https://api.github.com/repos/insper/dev-aberto/commits')
